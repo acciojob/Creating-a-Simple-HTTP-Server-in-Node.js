@@ -4,8 +4,8 @@
   "description": "Starter package.json template",
   "main": "main.js",
   "scripts": {
-    "test": "jest",
-    "start": "node main.js"
+    "test": "jest 2> output.txt",
+    "start": "node main.js &"
   },
   "repository": {
     "type": "git",
