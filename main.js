@@ -9,3 +9,9 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
   // TODO: Log a message to the console when the server starts listening on the port
 });
+
+// DO NOT EDIT BELOW THIS LINE
+
+module.exports = {
+  server
+}
