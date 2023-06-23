@@ -1,5 +1,4 @@
 const http = require('http');
-
 const port = 3000;
 
 const server = http.createServer((req, res) => {
@@ -12,6 +11,4 @@ server.listen(port, () => {
 
 // DO NOT EDIT BELOW THIS LINE
 
-module.exports = {
-  server
-}
+module.exports = { server }
